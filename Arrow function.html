@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> </head>
+  <body>
+    <h1>Hello I am Arrow Function</h1>
+
+    <p id="sum"></p>
+    <p id="sum2"></p>
+
+    <script>
+      function addd(x, y, z) {
+        return x + y + z;
+      }
+
+      var liban = 12;
+      var niloy = 15;
+      var sadab = 14;
+
+      document.getElementById("sum").innerHTML = addd(liban, niloy, sadab);
+
+      add = (a, b) => a + b;
+
+      document.getElementById("sum2").innerHTML = add(15, 25);
+    </script>
+  </body>
+</html>
